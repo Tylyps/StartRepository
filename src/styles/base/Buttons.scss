@@ -1,0 +1,25 @@
+.btn {
+    padding: $p-2;
+    cursor: pointer;
+    background: $color-white;
+    margin: 10px;
+    border-radius: 25%;
+    font-size: 20px;
+    @include size(50px);
+}
+
+.btn-green {
+    background: $color-green;
+    color: $color-white;
+}
+
+.btn-red {
+    background: $color-red;
+    color: $color-white;
+}
+
+.btn-close {
+    position: absolute;
+    top: $size-10;
+    right: $size-10;
+}

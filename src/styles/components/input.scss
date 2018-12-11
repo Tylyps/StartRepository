@@ -1,0 +1,14 @@
+input {
+  border: solid 2px $color-black;
+  padding: 5px;
+  box-sizing: border-box;
+  width: 200px;
+
+  &:first-of-type {
+    text-align: right;
+  };
+
+  &:last-of-type {
+    padding-left: 18px;
+  }
+}
